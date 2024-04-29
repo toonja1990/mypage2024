@@ -1,11 +1,5 @@
-table {
-    border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-  }
-  
+
+
   caption {
     caption-side: bottom;
     padding: 10px;
@@ -40,7 +34,8 @@ table {
   }
 img{
     border-radius: 50%;
-    width: 150px; height: 150px;
+    width: 220px; height: 220px;
+    
 }  
 hr {
   border-style: none; 
@@ -48,4 +43,29 @@ hr {
   border-color: grey;
   border-width:5px;
   width: 30%;
+}
+.profile-detail {
+  background-color: white; 
+  width: 60%; 
+  margin: 5% auto 5% auto;
+  padding: 5%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #333333
+}
+.table-borderless {
+  
+  letter-spacing: 1px;
+}
+
+.table-borderless td {
+  border: none;
+  vertical-align: top
+}
+
+.table-border {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+ 
+  letter-spacing: 1px;
+  background-color: beige;
 }
